@@ -1,0 +1,31 @@
+*{
+  list-style: none;
+}
+body {
+  background: #00c4ff;
+  color: #980606;
+}
+h2 {
+    color: #ff2345;
+    /* text-align: center; */
+}
+input[type="text"] {
+    width: 20%;
+    height: 40px;
+    background: rgba(101, 87, 87, 0.76);
+    border-color: #603d6f;
+}
+button {
+    height: 45px;
+    width: 8%;
+    background: rgba(101, 87, 87, 0.76);
+    border-color: #603d6f;
+}
+ul li {
+  color: #c52089;
+  padding: 10px;
+}
+ul li:hover {
+  background: white;
+color: black;
+}
