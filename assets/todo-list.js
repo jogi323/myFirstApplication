@@ -2,7 +2,7 @@ $(document).ready(function(){
   $('form').on('submit',function(){
     var item=$('form input');
     var todo={ item: item.val()};
-    console.log("dfsef");
+  
     $.ajax({
       type : 'post',
       url :  '/todo',
@@ -15,7 +15,7 @@ $(document).ready(function(){
     return false;
   });
 $('li').on('click',function(){
-  var item =$(this).text().replace(/ /g,"");
+  var item =$(this).text().trim();
   $.ajax({
     type : 'DELETE',
     url :  '/todo/' + item,
